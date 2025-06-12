@@ -1,0 +1,21 @@
+header{
+  border-bottom: 1px solid grey;
+}
+.mainBanner{
+  animation-name: shakeX;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+aside{
+  text-align: center;
+  padding: 50px 20px;
+  border-right: 1px solid grey;
+}
+
+aside button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 10px;
+}
